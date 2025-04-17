@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  jekyll:
+    image: jekyll/builder
+    command: jekyll serve --watch --force_polling --host 0.0.0.0
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+    working_dir: /srv/jekyll
