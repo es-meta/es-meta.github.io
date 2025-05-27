@@ -1,0 +1,1 @@
+import{r as n}from"./index-yaGGO9Zf.js";function p(t,e){return n.useMemo(()=>{var r;if(t.type)return t.type;let o=(r=t.as)!=null?r:"button";if(typeof o=="string"&&o.toLowerCase()==="button"||e?.tagName==="BUTTON"&&!e.hasAttribute("type"))return"button"},[t.type,t.as,e])}export{p as e};

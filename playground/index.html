@@ -7,14 +7,21 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="ECMAScript Debugger is a tool for debugging ECMAScript code through the specification, line-by-line."
     />
-    <link rel="apple-touch-icon" href="/logo192.png" />
+    <meta property="og:title" content="ECMAScript Double Debugger" />
+    <meta property="og:image" content="/playground/assets/og-BRRRZWOg.png" />
+    <meta property="og:image:alt" content="ESMeta logo" />
+    <meta
+      property="og:description"
+      content="ECMAScript Debugger is a tool for debugging ECMAScript code through the specification, line-by-line."
+    />
+    <link rel="apple-touch-icon" href="/playground/assets/logo-DOpmzrz5.jpeg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="/playground/manifest.json" />
+    <link rel="manifest" href="/playground/assets/manifest-DNT_3uC9.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,15 +31,29 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <!-- TODO style tag not needed after SSG -->
+    <style>
+      body {
+        background-color: #f2f2f2;
+        color: #000;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #171717;
+          color: #fff;
+        }
+      }
+    </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <script src="https://unpkg.com/@hpcc-js/wasm/dist/graphviz.umd.js" type="javascript/worker"></script>
-    <title>ECMAScript Debugger</title>
-    <script type="module" crossorigin src="/playground/assets/index-cCN7Zi5B.js"></script>
-    <link rel="stylesheet" crossorigin href="/playground/assets/index-R6FN5rHT.css">
+    <title>ECMAScript Double Debugger</title>
+    <!-- TODO add OpenGraph -->
+    <script type="module" crossorigin src="/playground/assets/index-yaGGO9Zf.js"></script>
+    <link rel="stylesheet" crossorigin href="/playground/assets/index-Bg-8YWHp.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script src="https://unpkg.com/@hpcc-js/wasm/dist/graphviz.umd.js" type="javascript/worker"></script>
   </body>
 </html>

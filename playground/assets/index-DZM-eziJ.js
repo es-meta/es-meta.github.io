@@ -1,0 +1,1 @@
+import{g as i,j as t,i as r}from"./index-yaGGO9Zf.js";function c(){const[s,e]=i(r),n=e.stepCnt,a=e.instCnt;return t.jsxs("div",{className:"data-[stale=true]:opacity-50","data-stale":s,children:[t.jsx("h1",{children:"Internal Stat Viewer"}),t.jsxs("pre",{className:"whitespace-pre-line",children:["Step: ",n,"instCnt: ",a]})]})}export{c as default};
