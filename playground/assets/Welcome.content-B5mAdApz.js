@@ -1,0 +1,11 @@
+import{o,j as e,a7 as l,M as i}from"./index-C6px-0LU.js";/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=o("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const h=o("ArrowRight",[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"m12 5 7 7-7 7",key:"xquz4c"}]]);function d({show:t}){return e.jsxs(l.div,{initial:{opacity:0,scale:.95,y:100},exit:{opacity:0,scale:.95,y:-100},className:"size-full space-y-4 p-6 absolute text-left",animate:t?"visible":"hidden",transition:{duration:1,times:[0,.5,1],ease:[.2,.8,.6,1]},variants:{visible:{opacity:[0,1,1,1],y:0,scale:1},hidden:{opacity:[1,.1,0,0],y:-100,scale:.95}},children:[e.jsx(l.img,{src:new URL("/playground/assets/icon-lhOuE5jW.jpeg",import.meta.url).href,alt:"ESMeta Logo",className:"relative w-32 h-32 rounded-lg mr-auto"}),e.jsxs("div",{children:[e.jsx("h1",{className:"text-2xl font-500",children:"Welcome to "}),e.jsx("h1",{className:"text-4xl font-700",children:"ESMeta Double Debugger"})]}),e.jsxs("p",{className:"text-base/loose text-left",children:["The ESMeta Double Debugger is a tool that displays both the JavaScript program state and the interpreter state, enabling you to"," ",e.jsx("b",{children:"step through the ECMAScript specification line by line"}),"."]})]})}const n=[d];function m({idx:t,setIdx:s}){return e.jsxs(e.Fragment,{children:[e.jsx("div",{className:"relative w-full h-[32rem] overflow-hidden ",children:n.map((r,a)=>e.jsx(r,{show:t===a},a))}),e.jsxs("div",{className:"absolute bottom-0 w-full p-4 flex flex-row gap-2 touch-none justify-center",children:[e.jsx("button",{className:i("button-styled",t>0?"":"invisible"),onClick:()=>{s(t-1)},children:e.jsx(c,{className:"inline size-[1em]"})}),e.jsx("button",{className:"button-styled","data-dialog-control":"close",children:"dive now"}),e.jsx("button",{className:i("button-styled",t<n.length-1?"":"invisible"),onClick:()=>{s(t+1)},children:e.jsx(h,{className:"inline size-[1em]"})})]})]})}export{m as default};
