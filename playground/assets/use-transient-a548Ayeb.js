@@ -1,1 +1,0 @@
-import{r as u}from"./index-yaGGO9Zf.js";function a(t,c){const[r,s]=u.useState(t),e=u.useRef(null);return u.useEffect(()=>(r!==t&&(e.current&&clearTimeout(e.current),e.current=setTimeout(()=>{s(t)},c)),()=>{e.current&&clearTimeout(e.current)}),[r,t,c]),[r,s]}export{a as u};

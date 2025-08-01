@@ -1,6 +1,0 @@
-import{o as c,g as o,j as e,p as l,G as r,n as x,v as m}from"./index-yaGGO9Zf.js";/**
- * @license lucide-react v0.468.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const t=c("Info",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"M12 16v-4",key:"1dtifu"}],["path",{d:"M12 8h.01",key:"e9boi3"}]]),s=x("flex flex-row items-center gap-[2px] px-1 py-1","transition-all","[&>svg]:size-4","uppercase text-sm");function h(){const{spec:n,esmeta:a,client:i}=o(m);return e.jsxs(e.Fragment,{children:[e.jsx("h4",{className:"mt-4 text-lg font-700",children:"ECMA-262 (Specification) Version"}),e.jsxs("div",{className:"flex flex-col gap-1",children:[e.jsxs("div",{className:s,children:[e.jsx(l,{}),n.tag||"unknown tag"]}),e.jsxs("div",{className:s,children:[e.jsx(r,{}),n.hash||"unknown commit hash"]})]}),e.jsx("h4",{className:"mt-4 text-lg font-700",children:"ESMeta Version"}),e.jsxs("div",{className:s,children:[e.jsx(t,{}),a??"unknown version"]}),e.jsx("h4",{className:"mt-4 text-lg font-700",children:"ESMeta Debugger Client Version"}),e.jsxs("div",{className:s,children:[e.jsx(t,{}),i]})]})}export{h as default};
