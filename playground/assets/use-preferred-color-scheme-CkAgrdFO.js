@@ -1,0 +1,1 @@
+import{r as n}from"./index-BH415X7o.js";function s(e){return n.useSyncExternalStore(r=>c(e,r),()=>o(e),a)}function o(e){return window.matchMedia(e).matches}function c(e,t){const r=window.matchMedia(e);return r.addEventListener("change",t),()=>{r.removeEventListener("change",t)}}function a(){return!1}function u(){return s("(prefers-color-scheme: dark)")?"dark":"light"}export{u};
