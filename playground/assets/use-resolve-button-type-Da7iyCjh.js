@@ -1,0 +1,14 @@
+import { c as e, n as t } from "./jsx-runtime-CqwARRmJ.js";
+var n = e(t(), 1);
+function r(e, t) {
+	return (0, n.useMemo)(() => {
+		if (e.type) return e.type;
+		let n = e.as ?? `button`;
+		if (typeof n == `string` && n.toLowerCase() === `button` || t?.tagName === `BUTTON` && !t.hasAttribute(`type`)) return `button`;
+	}, [
+		e.type,
+		e.as,
+		t
+	]);
+}
+export { r as t };

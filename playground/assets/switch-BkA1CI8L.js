@@ -1,0 +1,100 @@
+import { c as e, n as t, t as n } from "./jsx-runtime-CqwARRmJ.js";
+import { $ as r, B as i, D as a, E as o, M as s, N as c, O as l, Q as u, R as d, S as f, T as p, V as m, W as h, a as g, b as _, i as v, j as y, l as b, n as x, o as S, p as C, r as w, s as T, t as E, u as D } from "./label-D5dZ6Xu5.js";
+import { t as O } from "./use-resolve-button-type-Da7iyCjh.js";
+import { tt as k } from "./index-QWim6Jbc.js";
+var A = e(t(), 1), j = (0, A.createContext)(null);
+j.displayName = `GroupContext`;
+var M = A.Fragment;
+function N(e) {
+	let [t, n] = (0, A.useState)(null), [r, i] = x(), [a, o] = g(), s = (0, A.useMemo)(() => ({
+		switch: t,
+		setSwitch: n
+	}), [t, n]), c = {}, l = e, u = y();
+	return A.createElement(o, {
+		name: `Switch.Description`,
+		value: a
+	}, A.createElement(i, {
+		name: `Switch.Label`,
+		value: r,
+		props: {
+			htmlFor: s.switch?.id,
+			onClick(e) {
+				t && (C(e.currentTarget) && e.preventDefault(), t.click(), t.focus({ preventScroll: !0 }));
+			}
+		}
+	}, A.createElement(j.Provider, { value: s }, u({
+		ourProps: c,
+		theirProps: l,
+		slot: {},
+		defaultTag: M,
+		name: `Switch.Group`
+	}))));
+}
+var P = `button`;
+function F(e, t) {
+	let n = (0, o.useId)(), c = _(), g = d(), { id: x = c || `headlessui-switch-${n}`, disabled: S = g || !1, checked: C, defaultChecked: w, onChange: M, name: N, value: F, form: I, autoFocus: L = !1, ...R } = e, z = (0, A.useContext)(j), [B, V] = (0, A.useState)(null), H = b((0, A.useRef)(null), t, z === null ? null : z.setSwitch, V), U = a(w), [W, G] = l(C, M, U ?? !1), K = h(), [q, J] = (0, A.useState)(!1), Y = m(() => {
+		J(!0), G?.(!W), K.nextFrame(() => {
+			J(!1);
+		});
+	}), X = m((e) => {
+		if (D(e.currentTarget)) return e.preventDefault();
+		e.preventDefault(), Y();
+	}), Z = m((e) => {
+		e.key === v.Space ? (e.preventDefault(), Y()) : e.key === v.Enter && p(e.currentTarget);
+	}), Q = m((e) => e.preventDefault()), $ = E(), ee = T(), { isFocusVisible: te, focusProps: ne } = u({ autoFocus: L }), { isHovered: re, hoverProps: ie } = r({ isDisabled: S }), { pressed: ae, pressProps: oe } = k({ disabled: S }), se = i({
+		checked: W,
+		disabled: S,
+		hover: re,
+		focus: te,
+		active: ae,
+		autofocus: L,
+		changing: q
+	}), ce = s({
+		id: x,
+		ref: H,
+		role: `switch`,
+		type: O(e, B),
+		tabIndex: e.tabIndex === -1 ? 0 : e.tabIndex ?? 0,
+		"aria-checked": W,
+		"aria-labelledby": $,
+		"aria-describedby": ee,
+		disabled: S || void 0,
+		autoFocus: L,
+		onClick: X,
+		onKeyUp: Z,
+		onKeyPress: Q
+	}, ne, ie, oe), le = (0, A.useCallback)(() => {
+		if (U !== void 0) return G?.(U);
+	}, [G, U]), ue = y();
+	return A.createElement(A.Fragment, null, N != null && A.createElement(f, {
+		disabled: S,
+		data: { [N]: F || `on` },
+		overrides: {
+			type: `checkbox`,
+			checked: W
+		},
+		form: I,
+		onReset: le
+	}), ue({
+		ourProps: ce,
+		theirProps: R,
+		slot: se,
+		defaultTag: P,
+		name: `Switch`
+	}));
+}
+var I = c(F), L = Object.assign(I, {
+	Group: N,
+	Label: w,
+	Description: S
+}), R = n();
+function z({ checked: e, onChange: t }) {
+	return (0, R.jsx)(L, {
+		checked: e,
+		onChange: t,
+		className: `group inline-flex py-1 px-3.5 items-center rounded-full transition cursor-pointer data-checked:bg-es-600 bg-neutral-300 dark:bg-neutral-700`,
+		children: (0, R.jsx)(`span`, { className: `cursor-pointer size-3 rounded-full bg-white transition-transform duration-300 ease-in-out
+          group-data-checked:translate-x-2.5 -translate-x-2.5` })
+	});
+}
+export { z as t };
