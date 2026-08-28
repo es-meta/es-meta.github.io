@@ -1,0 +1,15 @@
+import { c as e, n as t } from "./jsx-runtime-CqwARRmJ.js";
+var n = e(t(), 1);
+function r(e, t) {
+	let [r, i] = (0, n.useState)(e), a = (0, n.useRef)(null);
+	return (0, n.useEffect)(() => (r !== e && (a.current && clearTimeout(a.current), a.current = setTimeout(() => {
+		i(e);
+	}, t)), () => {
+		a.current && clearTimeout(a.current);
+	}), [
+		r,
+		e,
+		t
+	]), [r, i];
+}
+export { r as t };
