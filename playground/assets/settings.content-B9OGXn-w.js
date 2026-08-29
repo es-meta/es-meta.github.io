@@ -1,8 +1,8 @@
 import { c as e, n as t, t as n } from "./jsx-runtime-CqwARRmJ.js";
 import { y as r } from "./utils-CcSgwp0X.js";
 import { B as i, E as a, N as o, R as s, a as c, j as l, n as u, r as d, x as f, y as p, z as m } from "./label-D5dZ6Xu5.js";
-import { t as h } from "./switch-BkA1CI8L.js";
-import { at as g, ot as _ } from "./index-QWim6Jbc.js";
+import { t as h } from "./switch-DGn_ufbb.js";
+import { at as g, ot as _ } from "./index-CYaaQPEq.js";
 var v = e(t(), 1), y = `div`;
 function b(e, t) {
 	let n = `headlessui-control-${(0, a.useId)()}`, [r, o] = u(), [d, h] = c(), g = s(), { disabled: _ = g || !1, ...b } = e, x = i({ disabled: _ }), S = {

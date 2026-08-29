@@ -51,7 +51,7 @@ self.onmessage = async (e) => {
 		switch (type) {
 			case "META":
 				input = data;
-				await import("./main-QVjgHV_o.js").then(async (m) => resolve(await m.StandaloneDebugger.buildFrom(input, (rate) => {
+				await import("./main-Da_zz6t-.js").then(async (m) => resolve(await m.StandaloneDebugger.buildFrom(input, (rate) => {
 					self.postMessage({
 						id: void 0,
 						type: "RATE",

@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/ConnectionSettings.content-CYB8C03n.js","assets/jsx-runtime-CqwARRmJ.js","assets/SpecVersionView.content-5QWmsS42.js","assets/utils-CcSgwp0X.js","assets/share-button.content-_WSNWgWi.js","assets/use-transient-B3cnmA1F.js","assets/settings.content-BUlldC-c.js","assets/label-D5dZ6Xu5.js","assets/react-dom-sPQfLLzr.js","assets/switch-BkA1CI8L.js","assets/use-resolve-button-type-Da7iyCjh.js","assets/monaco-BkVrCnUD.js","assets/use-preferred-color-scheme-uj_IJKVG.js","assets/ast-DfRbMhpd.js","assets/src-CoNJdl3w.js","assets/ast-CZdr9Z5l.css","assets/Breakpoints-CWo4qfQ8.js","assets/combobox-BPUMM4Si.js","assets/tooltip-iTuHEADK.js","assets/AlgoViewerHeader-Dveoc7_Q.js","assets/StateViewerItem-Ct_uJg8B.js","assets/env-BGxP3AUF.js","assets/TreeAddress-B7o2f3IO.js","assets/heap-CPzs95gJ.js","assets/callstack-BcooRW0Z.js","assets/internal-stat-R7G4z0pK.js","assets/AlgoViewer-CCOqXkJg.js","assets/AlgoViewer-In-Zh8J0.css","assets/Graphviz-L_qR27PY.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/ConnectionSettings.content-Ds_Vlis8.js","assets/jsx-runtime-CqwARRmJ.js","assets/SpecVersionView.content-B5L6ZWBA.js","assets/utils-CcSgwp0X.js","assets/share-button.content-DIF_iwpv.js","assets/use-transient-B3cnmA1F.js","assets/settings.content-B9OGXn-w.js","assets/label-D5dZ6Xu5.js","assets/react-dom-sPQfLLzr.js","assets/switch-DGn_ufbb.js","assets/use-resolve-button-type-Da7iyCjh.js","assets/monaco-FY100Y2z.js","assets/use-preferred-color-scheme-uj_IJKVG.js","assets/ast-Ce-Un4g0.js","assets/src-CoNJdl3w.js","assets/ast-CZdr9Z5l.css","assets/Breakpoints-DryV6psT.js","assets/combobox-CT4uEj9n.js","assets/tooltip-C6i4gjJP.js","assets/AlgoViewerHeader-ChoinCK1.js","assets/StateViewerItem-C1t-Qs5D.js","assets/env-CqzF6VmC.js","assets/TreeAddress-BnZw-Yta.js","assets/heap-uQF9oRyQ.js","assets/callstack-fMV5n6ku.js","assets/internal-stat-Bm66l0h2.js","assets/AlgoViewer-CnL70h3n.js","assets/AlgoViewer-In-Zh8J0.css","assets/Graphviz-CNCdxINL.js"])))=>i.map(i=>d[i]);
 import { a as e, c as t, i as n, n as r, r as i, s as a, t as o } from "./jsx-runtime-CqwARRmJ.js";
 import { t as s } from "./react-dom-sPQfLLzr.js";
 import { A as c, C as l, D as u, E as d, O as f, S as p, T as m, _ as h, a as g, b as _, c as v, d as y, f as b, i as x, k as S, l as C, o as w, p as T, r as E, u as D, v as O, w as k, x as A, y as ee } from "./utils-CcSgwp0X.js";
@@ -16142,7 +16142,7 @@ function Qv({ initialOpen: e = !1, buttonContent: t, className: n, children: r, 
 		})
 	})] });
 }
-var $v = (0, I.lazy)(() => Zv(() => import(`./ConnectionSettings.content-CYB8C03n.js`), __vite__mapDeps([0,1])));
+var $v = (0, I.lazy)(() => Zv(() => import(`./ConnectionSettings.content-Ds_Vlis8.js`), __vite__mapDeps([0,1])));
 function ey() {
 	let e = _(bf).api, t = A(yf), [n, r] = (0, I.useState)(e.type === `browser` ? ty[1] : ty[0]), [i, a] = (0, I.useState)(e.type === `http` ? e.url : ``), o = (0, I.useCallback)(() => {
 		r(e.type === `browser` ? ty[1] : ty[0]);
@@ -16222,7 +16222,7 @@ var ty = [{
 async function uy(e) {
 	return new Promise(async (t) => {
 		if (e.type === `browser`) {
-			let e = new Worker(new URL(`/playground/assets/standalone.worker-pO-dJjTp.js`, `` + import.meta.url)), n = await Promise.all([
+			let e = new Worker(new URL(`/playground/assets/standalone.worker-BbUEa0Qa.js`, `` + import.meta.url)), n = await Promise.all([
 				dy(new URL(`/playground/assets/funcs-xPZ8d0hD.json`, `` + import.meta.url)),
 				dy(new URL(`data:application/json;base64,ewogICJoYXNoIiA6ICIwMjQ4NDU2Yzc1ODQzMWU0YmI4ZTVkMjYzMzNmZjE4NjUxMjNjOWNkIiwKICAidGFnIiA6ICJlczIwMjYiCn0=`, `` + import.meta.url)),
 				dy(new URL(`/playground/assets/grammar-M1wuI2_D.json`, `` + import.meta.url)),
@@ -16327,7 +16327,7 @@ var Sy = l(`env`), Cy = l(null), wy = l(async () => ({
 })), Ty = `relative inset-0 justify-center
   font-medium bg-neutral-500/0 font-mono
   flex flex-row gap-1 items-center text-lg font-500 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg active:scale-90 transition-all cursor-pointer p-2
-  `, Ey = (0, I.lazy)(() => Zv(() => import(`./SpecVersionView.content-5QWmsS42.js`), __vite__mapDeps([2,1,3])));
+  `, Ey = (0, I.lazy)(() => Zv(() => import(`./SpecVersionView.content-B5L6ZWBA.js`), __vite__mapDeps([2,1,3])));
 function Dy() {
 	return (0, X.jsx)(Qv, {
 		className: `p-6`,
@@ -16368,7 +16368,7 @@ function ky() {
 function Ay(e) {
 	return e.substring(0, 6).padEnd(6, `\xA0`);
 }
-var jy = (0, I.lazy)(() => Zv(() => import(`./share-button.content-_WSNWgWi.js`), __vite__mapDeps([4,1,3,5])));
+var jy = (0, I.lazy)(() => Zv(() => import(`./share-button.content-DIF_iwpv.js`), __vite__mapDeps([4,1,3,5])));
 function My() {
 	return (0, X.jsx)(Qv, {
 		className: `p-6`,
@@ -16381,7 +16381,7 @@ function My() {
 		children: (0, X.jsx)(jy, {})
 	});
 }
-var Ny = (0, I.lazy)(() => Zv(() => import(`./settings.content-BUlldC-c.js`), __vite__mapDeps([6,1,3,7,8,9,10])));
+var Ny = (0, I.lazy)(() => Zv(() => import(`./settings.content-B9OGXn-w.js`), __vite__mapDeps([6,1,3,7,8,9,10])));
 function Py() {
 	return (0, X.jsx)(Qv, {
 		className: `p-6`,
@@ -18076,7 +18076,7 @@ function Rx({ title: e, titles: t, children: n, icon: r, onSelect: i }) {
 	});
 }
 window.requestIdleCallback;
-var zx = (0, I.lazy)(() => Zv(() => import(`./monaco-BkVrCnUD.js`), __vite__mapDeps([11,1,3,12]))), Bx = (0, I.lazy)(() => Zv(() => import(`./ast-DfRbMhpd.js`), __vite__mapDeps([13,1,8,3,14,15]))), Vx = l((e) => {
+var zx = (0, I.lazy)(() => Zv(() => import(`./monaco-FY100Y2z.js`), __vite__mapDeps([11,1,3,12]))), Bx = (0, I.lazy)(() => Zv(() => import(`./ast-Ce-Un4g0.js`), __vite__mapDeps([13,1,8,3,14,15]))), Vx = l((e) => {
 	let t = e(Wf);
 	return !(t === xf.INIT || t === xf.JS_INPUT);
 });
@@ -18138,7 +18138,7 @@ function Gx({ selected: e, options: t, setSelected: n, getId: r, getIcon: i, get
 		}, r(e)) : null)
 	});
 }
-var Kx = (0, I.lazy)(() => Zv(() => import(`./Breakpoints-CWo4qfQ8.js`), __vite__mapDeps([16,1,3,17,8,7,10,9,18,19,5,20]))), qx = (0, I.lazy)(() => Zv(() => import(`./env-BGxP3AUF.js`), __vite__mapDeps([21,1,3,22,18,20]))), Jx = (0, I.lazy)(() => Zv(() => import(`./heap-CPzs95gJ.js`), __vite__mapDeps([23,1,3,22,18,17,8,7,10,20]))), Yx = (0, I.lazy)(() => Zv(() => import(`./callstack-BcooRW0Z.js`), __vite__mapDeps([24,1,3,22,18,20]))), Xx = (0, I.lazy)(() => Zv(() => import(`./internal-stat-R7G4z0pK.js`), __vite__mapDeps([25,1,3]))), Zx = [
+var Kx = (0, I.lazy)(() => Zv(() => import(`./Breakpoints-DryV6psT.js`), __vite__mapDeps([16,1,3,17,8,7,10,9,18,19,5,20]))), qx = (0, I.lazy)(() => Zv(() => import(`./env-CqzF6VmC.js`), __vite__mapDeps([21,1,3,22,18,20]))), Jx = (0, I.lazy)(() => Zv(() => import(`./heap-uQF9oRyQ.js`), __vite__mapDeps([23,1,3,22,18,17,8,7,10,20]))), Yx = (0, I.lazy)(() => Zv(() => import(`./callstack-fMV5n6ku.js`), __vite__mapDeps([24,1,3,22,18,20]))), Xx = (0, I.lazy)(() => Zv(() => import(`./internal-stat-Bm66l0h2.js`), __vite__mapDeps([25,1,3]))), Zx = [
 	{
 		name: `Env`,
 		id: `env`,
@@ -18213,7 +18213,7 @@ function Qx() {
 		})]
 	});
 }
-var $x = (0, I.lazy)(() => Zv(() => import(`./AlgoViewerHeader-Dveoc7_Q.js`).then((e) => e.r).then((e) => ({ default: e.AlgoViewerHeaderUsingAlgoName })), __vite__mapDeps([19,1,3,5,18]))), eS = (0, I.lazy)(() => Zv(() => import(`./AlgoViewer-CCOqXkJg.js`), __vite__mapDeps([26,1,3,19,5,18,27])));
+var $x = (0, I.lazy)(() => Zv(() => import(`./AlgoViewerHeader-ChoinCK1.js`).then((e) => e.r).then((e) => ({ default: e.AlgoViewerHeaderUsingAlgoName })), __vite__mapDeps([19,1,3,5,18]))), eS = (0, I.lazy)(() => Zv(() => import(`./AlgoViewer-CnL70h3n.js`), __vite__mapDeps([26,1,3,19,5,18,27])));
 function tS({ context: e, embed: t }) {
 	let n = _(vy), r = t ?? !1, i = e === void 0 ? void 0 : n[e.fid];
 	return e === void 0 || i === void 0 ? r ? null : (0, X.jsx)(`div`, {
@@ -18252,7 +18252,7 @@ function tS({ context: e, embed: t }) {
 		scrollOnHighlight: !t
 	});
 }
-var nS = (0, I.lazy)(() => Zv(() => import(`./Graphviz-L_qR27PY.js`), __vite__mapDeps([28,1,3,14,12])));
+var nS = (0, I.lazy)(() => Zv(() => import(`./Graphviz-CNCdxINL.js`), __vite__mapDeps([28,1,3,14,12])));
 function rS() {
 	let e = _(Lf);
 	return e ? (0, X.jsx)(tS, {

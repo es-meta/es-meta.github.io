@@ -1,6 +1,6 @@
 import { t as e } from "./jsx-runtime-CqwARRmJ.js";
 import { b as t, r as n } from "./utils-CcSgwp0X.js";
-import { Dt as r, p as i, xt as a } from "./index-QWim6Jbc.js";
+import { Dt as r, p as i, xt as a } from "./index-CYaaQPEq.js";
 var o = e(), s = n(`flex flex-row items-center gap-[2px] px-1`, `[&>svg]:size-4`, `uppercase text-sm`);
 function c() {
 	let { spec: e, esmeta: n, client: c } = t(i);

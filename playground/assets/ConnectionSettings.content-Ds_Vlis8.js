@@ -1,5 +1,5 @@
 import { n as e, t } from "./jsx-runtime-CqwARRmJ.js";
-import { Et as n, kt as r, v as i, wt as a, y as o } from "./index-QWim6Jbc.js";
+import { Et as n, kt as r, v as i, wt as a, y as o } from "./index-CYaaQPEq.js";
 var s = r(`square-check-big`, [[`path`, {
 	d: `M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344`,
 	key: `2acyp4`
