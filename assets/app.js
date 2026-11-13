@@ -19,4 +19,4 @@ function renderPublication(pub) {
   ]);
 }
 
-document.getElementById('publications').replaceChildren(...PUBLICATIONS.map(renderPublication));
+document.getElementById('publication-list').replaceChildren(...PUBLICATIONS.map(renderPublication));
