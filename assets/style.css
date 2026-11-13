@@ -6,6 +6,9 @@
   --accent-fg: #2c2826;
   --line: #e9e1d6;
   --link: #a5600a;
+  --award-bg: #fdf0c8;
+  --award-fg: #7a4d00;
+  --award-line: #ecc764;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -14,6 +17,9 @@
     --muted: #a69c93;
     --line: #3a3430;
     --link: #f0a83c;
+    --award-bg: #3d2f12;
+    --award-fg: #f6c85f;
+    --award-line: #6b5420;
   }
 }
 * { box-sizing: border-box; }
@@ -60,6 +66,9 @@ ul.pubs { list-style: none; margin: 0; padding: 0; }
   font-size: 13px; font-weight: 700; padding: 1px 8px; border-radius: 4px;
   background: var(--fg); color: var(--bg);
 }
-.award { color: var(--fg); }
+.award {
+  font-size: 13px; font-weight: 700; padding: 1px 8px; border-radius: 4px;
+  background: var(--award-bg); color: var(--award-fg); border: 1px solid var(--award-line);
+}
 
 footer { margin-top: 48px; color: var(--muted); font-size: 14px; text-align: center; }
