@@ -8,7 +8,6 @@ layout: home
 [![prs](https://badgen.net/github/prs/es-meta/esmeta)](https://github.com/es-meta/esmeta/pulls)
 [![slack](https://badgen.net/badge/slack/esmeta/blue)](https://esmeta.slack.com/)
 [![site](https://badgen.net/badge/site/jekyll/blue)](https://es-meta.github.io/)
-[![doc](https://badgen.net/badge/doc/scaladoc/blue)](https://es-meta.github.io/esmeta)
 
 # ESMeta
 **ESMeta** is an **E**CMAScript **S**pecification **Meta**language. This
