@@ -9,9 +9,11 @@
   --award-bg: #fdf0c8;
   --award-fg: #7a4d00;
   --award-line: #ecc764;
+  color-scheme: light;
 }
+/* dark theme: follows the system unless the visitor picks one (assets/theme.js sets data-theme) */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #1d1a18;
     --fg: #ece6df;
     --muted: #a69c93;
@@ -20,7 +22,19 @@
     --award-bg: #3d2f12;
     --award-fg: #f6c85f;
     --award-line: #6b5420;
+    color-scheme: dark;
   }
+}
+:root[data-theme="dark"] {
+  --bg: #1d1a18;
+  --fg: #ece6df;
+  --muted: #a69c93;
+  --line: #3a3430;
+  --link: #f0a83c;
+  --award-bg: #3d2f12;
+  --award-fg: #f6c85f;
+  --award-line: #6b5420;
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {
@@ -72,3 +86,11 @@ ul.pubs { list-style: none; margin: 0; padding: 0; }
 }
 
 footer { margin-top: 48px; color: var(--muted); font-size: 14px; text-align: center; }
+.theme-toggle {
+  position: fixed; top: 16px; right: 16px;
+  width: 40px; height: 40px; border-radius: 999px; padding: 0;
+  display: grid; place-items: center; cursor: pointer;
+  background: var(--bg); color: var(--fg); border: 1px solid var(--line);
+}
+.theme-toggle:hover { background: var(--line); }
+.theme-toggle svg { width: 20px; height: 20px; }
