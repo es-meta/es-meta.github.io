@@ -1,17 +1,16 @@
 # ESMeta Official Homepage
 
-This repository contains the official ESMeta homepage, built with [Jekyll](https://jekyllrb.com/), deployed via GitHub Pages.
+This repository contains the official ESMeta homepage (https://es-meta.github.io/), a static site deployed via GitHub Pages without a build step (`.nojekyll`).
+
+- `index.html`: page layout
+- `assets/style.css`, `assets/app.js`: styles and rendering
+- `data/publications.js`: the publication list (add a new paper at the top)
+- `playground/`: the ECMAScript Double Debugger, built from [`es-meta/esmeta`](https://github.com/es-meta/esmeta)
 
 ## Running Locally
 
-If you’re already using Docker, you can start the site without installing and configuring Ruby and Jekyll:
 ```shell
-$ docker compose up
+$ python3 -m http.server 4000
 ```
 
-If you prefer to run it without Docker, please refer to the Jekyll installation guides: [EN](https://jekyllrb.com/docs/installation/)/[KO](https://jekyllrb-ko.github.io/docs/installation)
-
-Once Jekyll is installed, you can run the site locally with the following command:
-```shell
-$ bundle exec jekyll serve
-```
+Then open http://localhost:4000/.

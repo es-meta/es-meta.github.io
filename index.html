@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ESMeta: ECMAScript Specification Metalanguage</title>
+  <meta name="description" content="ESMeta extracts a mechanized specification from ECMA-262 and automatically generates language-based tools.">
+  <link rel="icon" href="favicon.ico">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://es-meta.github.io/">
+  <meta property="og:title" content="ESMeta: ECMAScript Specification Metalanguage">
+  <meta property="og:description" content="ESMeta extracts a mechanized specification from ECMA-262 and automatically generates language-based tools.">
+  <meta property="og:image" content="https://es-meta.github.io/assets/logo.jpeg">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="assets/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8J7DWGP9S5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-8J7DWGP9S5');
+  </script>
+  <script defer src="data/publications.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<main>
+  <header>
+    <img src="assets/logo.jpeg" alt="ESMeta logo">
+    <h1>ESMeta</h1>
+    <p class="tagline">ECMAScript Specification Metalanguage</p>
+    <p class="intro">ESMeta extracts a mechanized specification from a given version of the JavaScript language specification (<a href="https://tc39.es/ecma262/">ECMA-262</a>) and automatically generates language-based tools: a JavaScript interpreter, a double debugger, a conformance test synthesizer, and a specification type analyzer.</p>
+    <div class="buttons">
+      <a class="button primary" href="playground/">Try the Playground</a>
+      <a class="button secondary" href="https://github.com/es-meta/esmeta">GitHub</a>
+    </div>
+    <p class="hint">The playground runs the ECMAScript Double Debugger in your browser, with no installation.</p>
+    <p class="used">
+      Used in the CI of
+      <a href="https://github.com/tc39/ecma262/actions/workflows/esmeta-typecheck.yml">ECMA-262</a> and
+      <a href="https://github.com/tc39/test262/actions/workflows/esmeta-test262.yml">Test262</a>
+      · <a href="https://github.com/es-meta/esmeta/wiki">Bugs found by ESMeta</a>
+    </p>
+  </header>
+
+  <h2>Publications</h2>
+  <ul class="pubs" id="publications"></ul>
+
+  <footer>
+    <a href="https://github.com/es-meta">es-meta</a> on GitHub
+  </footer>
+</main>
+</body>
+</html>
